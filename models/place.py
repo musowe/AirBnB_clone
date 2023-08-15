@@ -1,28 +1,11 @@
 #!/usr/bin/python3
-"""The `place` module
+"""Module for Place class."""
 
-It defines one class, `Place(),
-which sub-classes the `BaseModel()` class.`
-"""
 from models.base_model import BaseModel
 
 
 class Place(BaseModel):
-    """
-    A subclass of BaseModel class
-    Public class attributes:
-        price_by_night
-        number_rooms
-        longitude
-        latitude
-        max_guest
-        amenity_ids
-	name
-        user_id
-        city_id
-        description
-        number_bathrooms
-    """
+    """Class representing a Place."""
     city_id = ""
     user_id = ""
     name = ""
